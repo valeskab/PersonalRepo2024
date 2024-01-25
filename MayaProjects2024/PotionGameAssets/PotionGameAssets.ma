@@ -1,6 +1,6 @@
 //Maya ASCII 2023 scene
 //Name: PotionGameAssets.ma
-//Last modified: Wed, Jan 24, 2024 05:14:52 PM
+//Last modified: Wed, Jan 24, 2024 06:31:39 PM
 //Codeset: 1252
 requires maya "2023";
 currentUnit -l centimeter -a degree -t film;
@@ -9,12 +9,12 @@ fileInfo "product" "Maya 2023";
 fileInfo "version" "2023";
 fileInfo "cutIdentifier" "202202161415-df43006fd3";
 fileInfo "osv" "Windows 11 Home v2009 (Build: 22621)";
-fileInfo "UUID" "5EA6FF1E-48CD-8071-1577-41BA6974FCA5";
+fileInfo "UUID" "8F507285-4492-92E2-3620-E6B35E7C5D96";
 createNode transform -s -n "persp";
 	rename -uid "E345EDE2-46C1-5AAE-40C6-7B986FAEE8F7";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 15.851280072765203 12.88116564859812 3.4621458480739218 ;
-	setAttr ".r" -type "double3" 338.661647295801 446.59999999804791 0 ;
+	setAttr ".t" -type "double3" 14.780149774234211 12.300666748591704 8.5476220334143278 ;
+	setAttr ".r" -type "double3" 341.06164729581894 424.99999999803691 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "697FD35E-4919-DA52-1515-A682208142D3";
 	setAttr -k off ".v" no;
